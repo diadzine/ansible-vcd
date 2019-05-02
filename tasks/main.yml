@@ -10,7 +10,7 @@
     vdc_name: "{{ vdc_name }}"
     username: "{{ vcd_username }}"
     password: "{{ vcd_pwd }}"
-    api_version: '5.6'
+    api_version: '26.0'
     service_type: vcd
 
     catalog_name: "{{ vcd_catalog }}"
@@ -39,7 +39,7 @@
     vdc_name: "{{ vdc_name }}"
     username: "{{ vcd_username }}"
     password: "{{ vcd_pwd }}"
-    api_version: '5.6'
+    api_version: '26.0'
     service_type: vcd
 
     verify_certs: "{{ check_ssl_certs }}"
@@ -65,7 +65,7 @@
     vdc_name: "{{ vdc_name }}"
     username: "{{ vcd_username }}"
     password: "{{ vcd_pwd }}"
-    api_version: '5.6'
+    api_version: '26.0'
     service_type: vcd
 
     verify_certs: "{{ check_ssl_certs }}"
